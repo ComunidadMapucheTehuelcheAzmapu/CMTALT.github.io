@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    background-image: url(../Fondo.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: "Acme", sans-serif;
+}
+div#Head{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(116, 35, 35);
+    color: yellow;
+}
+li > h1{
+    font-size: 30px;
+}
+li > h2{
+    font-size: 25px;
+}
+li > h3{
+    font-size: 20px;
+}
+li{
+    list-style: none;
+}
+hr{
+    margin: 0px;
+}
+.botones{
+    margin: 0px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+a:hover{
+    color: black;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    background-color: white;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.in-flex{
+    flex: 1;
+    min-width: 250px
+}
+.in-flex:first-child{
+    flex: 2;
+    padding: 10px;
+    background-color: rgb(116, 35, 35);
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.in-flex div{
+    padding: 5px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 15px;
+}
